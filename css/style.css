@@ -1,0 +1,76 @@
+body{
+    /* background-image: linear-gradient(rgb(81, 196, 167), rgb(12, 53, 47)); */
+    background-image: url('https://previews.123rf.com/images/vectorfusionart/vectorfusionart1712/vectorfusionart171200714/91436795-digital-composite-of-chat-bubble-app-icons-connected-and-dark-background.jpg');
+    height: 100vh;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border: 2px solid antiquewhite;
+    border-radius: 70%;
+}
+h1{
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(241, 246, 245);
+}
+.container{
+    max-width: 955px;
+    background-color: #546c83;
+    border: 2px solid black;
+    border-radius:35px 0px ;
+    margin:auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 25px;
+}
+.message{
+    background-color: rgba(255, 228, 196, 0.795);
+    width: 25%;
+    padding: 10px;
+    margin: 17px 10px;
+    border: 2px solid rgb(6, 36, 22);
+    border-radius: 15px 0px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1025px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#messageInp{
+    width: 75%;
+    border: 2px solid black;
+    border-radius: 0px 15px;
+    height: 35px;
+    font-size: 22px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid wheat;
+    border-radius: 15px 0px;
+    height: 35px;
+    color: white;
+    background:black;
+    width: 15%;
+    margin: 0px 10px;
+}
